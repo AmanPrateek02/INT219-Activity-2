@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Task</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+
+    <header class="bg-green-500 text-white p-4 text-center">
+        <h1 class="text-2xl font-semibold">Welcome to Your Website Task</h1>
+        <nav class="mt-2">
+            <a href="#" class="mx-2">Home</a>
+            <a href="#" class="mx-2">About</a>
+            <a href="#" class="mx-2">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="text-lg font-semibold mb-2 text-green-500">About CSS</h2>
+                <p class="text-sm">Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="text-lg font-semibold mb-2 text-green-500">Box Model</h2>
+                <p class="text-sm">The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="text-lg font-semibold mb-2 text-green-500">Responsive Design</h2>
+                <p class="text-sm">Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-100 p-4 text-center mt-8">
+        <p class="text-sm">Created by Aman Prateek | Follow us on 
+            <a href="#" class="text-blue-500">Instagram</a> 
+            <a href="#" class="text-blue-500">Twitter</a> 
+            <a href="#" class="text-blue-500">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+</html>
